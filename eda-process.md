@@ -6,7 +6,7 @@ A systematic approach to understanding your data before modeling.
 - Check dataset shape: `df.shape`
 - View sample data: `df.head()`, `df.tail()` 
 - Examine data types: `df.info()`
-- Get basic statistics: `df.describe()`
+- Get basic statistics: `df.describe()`, `df_describe(include='all').T`
 
 ## 2. Data Quality Assessment
 - Find missing values: `df.isna().sum()`
